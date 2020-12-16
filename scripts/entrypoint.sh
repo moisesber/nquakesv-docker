@@ -16,6 +16,7 @@ echo "Using settings:"
 [ -z "$SERVER_ADMIN" ] && export SERVER_ADMIN="anon <anonymous@example.com>"; echo " * SERVER_ADMIN=$SERVER_ADMIN"
 [ -z "$REPORT_URL" ] && export REPORT_URL="https://badplace.eu"; echo " * REPORT_URL=$REPORT_URL"
 [ -z "$REPORT_KEY" ] && export REPORT_KEY="askmeag"; echo " * REPORT_KEY=$REPORT_KEY"
+[ -z "$KTPRO_MODE" ] && export KTPRO_MODE="1on1"; echo " * KTPRO_MODE=$KTPRO_MODE"
 echo " * RCON_PASSWORD=$(echo $RCON_PASSWORD | sed 's/./*/g')"
 
 [ -z "$SERVER_IP" ] && {
